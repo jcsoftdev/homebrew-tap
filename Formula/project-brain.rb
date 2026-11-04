@@ -2,25 +2,25 @@
 class ProjectBrain < Formula
   desc "Local-first MCP server for codebase knowledge: semantic search plus a call graph"
   homepage "https://github.com/jcsoftdev/project-brain"
-  version "0.41.2"
+  version "0.42.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jcsoftdev/project-brain/releases/download/v0.41.2/project-brain-darwin-arm64"
-      sha256 "9ae5c31d33a212c7eba835c6f2a488955e94430eb4455de42e7f712d636f6436"
+      url "https://github.com/jcsoftdev/project-brain/releases/download/v0.42.0/project-brain-darwin-arm64"
+      sha256 "807b37c6126e303a76541c9de29cc355334ebbf3a92205e19f2c253c753a8736"
     end
     # Intel macOS has no published binary — see the build matrix in release.yml.
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jcsoftdev/project-brain/releases/download/v0.41.2/project-brain-linux-x64"
-      sha256 "95d2ea2604d6e88538e8b92f2d97005a7543bebe62a7d6c9f573b8647f93ea51"
+      url "https://github.com/jcsoftdev/project-brain/releases/download/v0.42.0/project-brain-linux-x64"
+      sha256 "cd0f6f897b2a27518b0ca539f1631cd7f4210ae40e80073b82802ef69ca653f1"
     end
     on_arm do
-      url "https://github.com/jcsoftdev/project-brain/releases/download/v0.41.2/project-brain-linux-arm64"
-      sha256 "ad6a715418da1ffcd9e5b9f34589190ff57c6437278175f5434b3a5fe5d52193"
+      url "https://github.com/jcsoftdev/project-brain/releases/download/v0.42.0/project-brain-linux-arm64"
+      sha256 "92a624c71c5c1d1afa89b8fa53e58326f16281e00a0739a8889d9d4776a99d44"
     end
   end
 
